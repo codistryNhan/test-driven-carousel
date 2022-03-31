@@ -1,6 +1,7 @@
-import React from 'react'; // 1
-import { configure, shallow } from 'enzyme'; // 2
+import React from 'react';
 import Adapter from 'enzyme-adapter-react-16';
+import { configure, shallow } from 'enzyme';
+
 import CarouselButton from '../CarouselButton';
 
 configure({ adapter: new Adapter() });
