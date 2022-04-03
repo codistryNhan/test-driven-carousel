@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarouselSlide renders correctly 1`] = `
+<figure
+  Img={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "CarouselSlide__DefaultImg-ds4ujd-0",
+        "isStatic": false,
+        "rules": Array [
+          "object-fit:cover;width:100%;height:",
+          [Function],
+          ";",
+        ],
+      },
+      "displayName": "CarouselSlide__DefaultImg",
+      "render": [Function],
+      "styledComponentId": "CarouselSlide__DefaultImg-ds4ujd-0",
+      "target": "img",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+>
+  <CarouselSlide__DefaultImg
+    imgHeight={500}
+    src="https://example.com/image.png"
+  />
+  <figcaption>
+    <strong>
+      Description
+    </strong>
+     
+    Attribution
+  </figcaption>
+</figure>
+`;

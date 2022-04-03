@@ -1,10 +1,7 @@
 import React from 'react';
-import Adapter from 'enzyme-adapter-react-16';
-import { configure, shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 
 import CarouselSlide from '../CarouselSlide';
-
-configure({ adapter: new Adapter() });
 
 describe('CarouselSlide', () => {
   let wrapper;
@@ -54,5 +51,13 @@ describe('CarouselSlide', () => {
     expect(wrapper.prop('style')).toBe(style);
     expect(wrapper.prop('onClick')).toBe(onClick);
     expect(wrapper.prop('className')).toBe(className);
+  });
+
+  it('renders correctly', () => {
+    wrapper.setProps({
+      description: 'Description',
+      attribution: 'Attribution',
+    });
+    expect(wrapper).toMatchSnapshot();
   });
 });
