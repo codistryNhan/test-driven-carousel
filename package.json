@@ -23,6 +23,7 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.9.2",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "eslint": "^5.10.0",
@@ -38,6 +39,7 @@
   },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.4.2"
+    "react": "^16.4.2",
+    "styled-components": "^4.1.1"
   }
 }
